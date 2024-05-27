@@ -41,11 +41,6 @@ def get_joke():
         await ctx.send((f'Шутка дня: {joke_text}'))
 get_joke()
 
-def babki():
-    @bot.command(aliases=['бабки'])
-    async def babki_(ctx):
-        await ctx.send((f'Егор верни бабки!!!!! БЫСТРО СУКА!!!!\n')*50)
-babki()
 
 TOKEN = 'MTIwMzczNjc1MjI3MTkyMTI0Mg.Go3_Zu.sfpmBkQ6xaJZVCi2yIfIxC6NGsPL3ZFw_-u0AU' 
 bot.run(TOKEN)
